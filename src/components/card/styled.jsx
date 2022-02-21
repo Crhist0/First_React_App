@@ -13,8 +13,10 @@ export const StyledH3 = styled.h3`
   text-align: center;
   font-size: 1.8rem;
   margin: 0.8rem 0rem 0.5rem;
+  color: ${(props) => props.theme.textColor};
 `;
 export const StyledP = styled.p`
   max-width: fit-content;
   text-align: center;
+  color: ${(props) => props.theme.textColor};
 `;
