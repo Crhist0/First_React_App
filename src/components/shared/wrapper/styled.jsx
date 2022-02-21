@@ -21,7 +21,7 @@ export const StyledSection = styled.section`
     }
     if (props.bgColor) {
       return css`
-        background-color: ${(props) => props.bgColor};
+        background-color: ${(props) => props.theme.bgColorSecondary};
       `;
     }
   }}
