@@ -8,3 +8,12 @@ export const StyledDiv = styled.div`
   align-items: center;
   margin-bottom: 5rem;
 `;
+
+export const StyledP = styled.p(({ theme }) => ({
+  color: theme.textColor,
+}));
+
+export const StyledH1 = styled.h1(({ theme }) => ({
+  color: theme.textColor,
+  marginBottom: '1rem',
+}));
