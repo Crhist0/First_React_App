@@ -12,7 +12,7 @@ import { Footer } from '../../components/footer/Footer';
 export const Landing = () => {
   return (
     <>
-      <Section id='header' bg={true} size='big' title={'Uma página React'} />
+      <Section id='header' bg='url(https://images.unsplash.com/photo-1439405326854-014607f694d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=10.jpeg)' size='big' title={'Uma página React'} />
 
       <Section id='icon-cards' size='big' bgColor='white'>
         <Card>
@@ -93,7 +93,7 @@ export const Landing = () => {
         <HalfCard img='https://res.cloudinary.com/practicaldev/image/fetch/s--NfOCGDyJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/rq48n957djcp028jlv59.jpg' />
       </Section>
 
-      <Section id='contact' bg={true} title={'Contato'} />
+      <Section id='contact' bg='url(https://images.unsplash.com/photo-1439405326854-014607f694d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=10.jpeg)' title={'Contato'} />
 
       <Section id='footer'>
         <Footer />
